@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpeg"
+    <title>AJEPS SOUNDS | Event Production Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+        /* HEADER */
+        header {
+            background: #000;
+            padding: 25px 8%;
+            text-align: center;
+            border-bottom: 2px solid #e91e63;
+        }
+        header h1 {
+            font-size: 36px;
+            color: white;
+            letter-spacing: 2px;
+        }
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #111, #222);
+        }
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #ccc;
+        }
+        /* SERVICES */
+        .services {
+            padding: 60px 8%;
+        }
+        .services h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+        .service-card {
+            background: #1c1c1c;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+            transition: 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+        }
+        /* Make images clickable links and indicate interactivity */
+        .service-card a.img-link {
+            display: block;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .service-card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover img {
+            transform: scale(1.03);
+        }
+        .service-content {
+            padding: 25px;
+            text-align: center;
+        }
+        .service-content h3 {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+        .service-content p {
+            color: #ccc;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        /* BUTTON */
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #e91e63;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background: #c2185b;
+        }
+        /* MOBILE */
+        @media (max-width: 900px) {
+            .service-container {
+                grid-template-columns: 1fr;
+            }
+            .hero h2 {
+                font-size: 30px;
+            }
+            .service-card img {
+                height: 280px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AJEPS SOUNDS</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Professional Event Production</h2>
+        <p>Premium audio, visual, staging, and lighting solutions for unforgettable events.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <!-- SOUND SYSTEM -->
+            <div class="service-card">
+                <a href="https://wa.me" target="_blank" class="img-link">
+                    <img src="sound.jpeg" alt="Professional Line Array Sound System">
+                </a>
+                <div class="service-content">
+                    <h3>Professional Sound Systems</h3>
+                    <p>
+                        Experience crystal-clear audio with our high-end line array speakers and professional sound engineering tailored for concerts, festivals, conferences, and large outdoor gatherings.
+                    </p>
+                    <a href="https://wa.me" target="_blank" class="button">Chat on WhatsApp</a> 
+                </div>
+            
+            </div>
+
+            <!-- LED SCREEN -->
+            <div class="service-card">
+                <a href="https://wa.me" target="_blank" class="img-link">
+                    <img src="screen.png" alt="High Definition LED Video Wall Panels">
+                </a>
+                <div class="service-content">
+                    <h3>LED Video Walls</h3>
+                    <p>
+                        Bring your events to life with bright, crystal-clear, high-definition LED displays. Perfect for indoor and outdoor visual presentations, custom backdrops, and live feeds.
+                    </p>
+                    <a href="https://wa.me" target="_blank" class="button">Chat on WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- STAGE -->
+            <div class="service-card">
+                <a href="https://wa.me" target="_blank" class="img-link">
+                    <img src="stage.jpeg" alt="Professional Event Stage">
+                </a>
+                <div class="service-content">
+                    <h3>Stage Setup</h3>
+                    <p>
+                        We provide professional stage structures and complete stage setups for concerts, conferences, weddings, church programs, and corporate functions.
+                    </p>
+                    <a href="https://wa.me" target="_blank" class="button">Chat on WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- LIGHTING -->
+            <div class="service-card">
+                <a href="https://wa.me" target="_blank" class="img-link">
+                    <img src="light.jpeg" alt="Professional Event Lighting">
+                </a>
+                <div class="service-content">
+                    <h3>Event Lighting</h3>
+                    <p>
+                        Create an amazing atmosphere with professional stage lighting, intelligent moving heads, ambient architectural LED lighting, and special effects.
+                    </p>
+                    <a href="https://wa.me" target="_blank" class="button">Chat on WhatsApp</a>
+                </div>
+            </div>
+            <a href="https://www.tiktok.com/@ajeps.sound" target="_blank" class="tiktok-button"> <span class="tiktok-icon">♪</span>
+                 <span>Follow AJEPS SOUND on TikTok for more</span> </a> 
+                 <style> .tiktok-button { display: inline-flex; align-items: center; gap: 10px;
+                     padding: 13px 22px; 
+                     background: #000;
+                      color: #fff; 
+                     text-decoration: none; 
+                     border-radius: 30px; 
+                     font-family: Arial, sans-serif;
+                      font-size: 16px; font-weight: bold; 
+                      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+                       transition: all 0.3s ease; } .tiktok-icon { font-size: 22px; 
+                       font-weight: bold; } .tiktok-button:hover { transform: translateY(-3px);
+                       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35); } .tiktok-button:active { transform: scale(0.96); } </style>
+<a href="https://www.instagram.com/@ajeps_sound/" 
+   target="_blank" 
+   class="instagram-button">
+
+    <span class="instagram-icon">◎</span>
+    <span>Follow AJEPS SOUND on Instagram for more</span>
+
+</a>
+
+<style>
+.instagram-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 22px;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.instagram-icon {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.instagram-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.instagram-button:active {
+    transform: scale(0.96);
+}
+</style>
+<a href="https://www.facebook.com/@ajeps_sound" 
+   target="_blank" 
+   class="facebook-button">
+
+    <span class="facebook-icon">f</span>
+    <span>Follow AJEPS SOUND on Facebook for more</span>
+
+</a>
+
+<style>
+.facebook-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 22px;
+    background: #1877f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.facebook-icon {
+    background: white;
+    color: #1877f2;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.facebook-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.facebook-button:active {
+    transform: scale(0.96);
+}
+</style>
+<a href="https://wa.me/2348062098407?text=Hello%2C%20I%E2%80%99m%20interested%20in%20your%20services.%20I%20found%20your%20website%20and%20would%20like%20to%20know%20more.%20Thank%20you%21"
+   target="_blank"
+   class="whatsapp-button">
+
+    <span class="whatsapp-icon">☏</span>
+    <span>Contact AJEPS SOUND on WhatsApp for more</span>
+
+</a>
+
+<style>
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 22px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.whatsapp-icon {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.whatsapp-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.whatsapp-button:active {
+    transform: scale(0.96);
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Comments</title>
+
+    <style>
+
+        /* ===== GENERAL PAGE ===== */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color: white;
+            min-height: 100vh;
+            padding: 50px 20px;
+        }
+
+
+        /* ===== COMMENT BOX ===== */
+
+        .comment-box {
+            width: 100%;
+            max-width: 550px;
+            margin: 50px auto;
+            padding: 35px;
+
+            background: #111111;
+
+            border: 1px solid #333333;
+            border-radius: 20px;
+
+            box-shadow: 0 10px 30px rgba(255,255,255,0.08);
+
+            text-align: center;
+        }
+
+
+        /* ===== TITLE ===== */
+
+        .comment-box h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+
+        /* ===== DESCRIPTION ===== */
+
+        .comment-box p {
+            color: #aaaaaa;
+            font-size: 15px;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+
+        /* ===== INPUTS ===== */
+
+        .comment-box input,
+        .comment-box textarea {
+
+            width: 100%;
+
+            padding: 15px;
+
+            margin-bottom: 15px;
+
+            background: #1c1c1c;
+
+            color: white;
+
+            border: 1px solid #444444;
+
+            border-radius: 10px;
+
+            font-size: 16px;
+
+            outline: none;
+
+            transition: 0.3s;
+        }
+
+
+        /* ===== INPUT PLACEHOLDER ===== */
+
+        .comment-box input::placeholder,
+        .comment-box textarea::placeholder {
+            color: #888888;
+        }
+
+
+        /* ===== INPUT FOCUS ===== */
+
+        .comment-box input:focus,
+        .comment-box textarea:focus {
+
+            border-color: #25D366;
+
+            box-shadow: 0 0 10px rgba(37,211,102,0.2);
+        }
+
+
+        /* ===== COMMENT TEXTAREA ===== */
+
+        .comment-box textarea {
+
+            height: 140px;
+
+            resize: vertical;
+        }
+
+
+        /* ===== WHATSAPP BUTTON ===== */
+
+        .send-button {
+
+            width: 100%;
+
+            padding: 15px;
+
+            border: none;
+
+            border-radius: 30px;
+
+            background: #25D366;
+
+            color: white;
+
+            font-size: 17px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            transition: all 0.3s ease;
+        }
+
+
+        /* ===== BUTTON HOVER ===== */
+
+        .send-button:hover {
+
+            transform: translateY(-3px);
+
+            box-shadow:
+                0 8px 20px rgba(37,211,102,0.35);
+        }
+
+
+        /* ===== BUTTON CLICK ===== */
+
+        .send-button:active {
+
+            transform: scale(0.97);
+        }
+
+
+        /* ===== MOBILE ===== */
+
+        @media (max-width: 600px) {
+
+            body {
+                padding: 20px 15px;
+            }
+
+            .comment-box {
+
+                margin: 30px auto;
+
+                padding: 25px 20px;
+            }
+
+            .comment-box h1 {
+
+                font-size: 25px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         CUSTOMER COMMENT BOX
+    ========================== -->
+
+    <div class="comment-box">
+
+        <h1>💬 Leave a Comment</h1>
+
+        <p>
+            We would love to hear from you!
+            Send us your feedback directly on WhatsApp.
+        </p>
+
+
+        <!-- CUSTOMER NAME -->
+
+        <input
+            type="text"
+            id="customerName"
+            placeholder="Enter your name"
+        >
+
+
+        <!-- CUSTOMER COMMENT -->
+
+        <textarea
+            id="customerComment"
+            placeholder="Write your comment here..."
+        ></textarea>
+
+
+        <!-- SEND BUTTON -->
+
+        <button
+            class="send-button"
+            onclick="sendToWhatsApp()">
+
+            💬 Send Comment to WhatsApp
+
+        </button>
+
+    </div>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script>
+
+        function sendToWhatsApp() {
+
+
+            // Get customer's name
+
+            const name =
+                document
+                .getElementById("customerName")
+                .value
+                .trim();
+
+
+            // Get customer's comment
+
+            const comment =
+                document
+                .getElementById("customerComment")
+                .value
+                .trim();
+
+
+            // Check if name or comment is empty
+
+            if (name === "" || comment === "") {
+
+                alert(
+                    "Please enter your name and comment."
+                );
+
+                return;
+            }
+
+
+            // ===================================
+            // PUT YOUR WHATSAPP NUMBER HERE
+            // ===================================
+
+            const phoneNumber =
+                "2348062098407";
+
+
+            // ===================================
+            // CREATE WHATSAPP MESSAGE
+            // ===================================
+
+            const message =
+                "🌟 NEW CUSTOMER COMMENT 🌟\n\n" +
+
+                "👤 Name: " +
+                name +
+
+                "\n\n💬 Comment: " +
+                comment;
+
+
+            // Convert message for WhatsApp
+
+            const encodedMessage =
+                encodeURIComponent(message);
+
+
+            // Create WhatsApp link
+
+            const whatsappURL =
+                "https://wa.me/" +
+                phoneNumber +
+                "?text=" +
+                encodedMessage;
+
+
+            // Open WhatsApp
+
+            window.open(
+                whatsappURL,
+                "_blank"
+            );
+
+        }
+
+    </script>
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Image</title>
+</head>
+<body>
+
+    <img src="merge.png" alt="My Image" width="550" height="550">
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Video</title>
+
+    <style>
+        .video-box {
+            width: 100%;
+            height: 600px;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-box video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="video-box">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+</html>
+    </div>
+    </section>
+
+</body>
+</html>

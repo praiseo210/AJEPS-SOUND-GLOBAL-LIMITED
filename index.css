@@ -1,0 +1,46 @@
+/* Floating WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #128c7e;
+}
+<a href="https://www.tiktok.com/@praise_designs" 
+   target="_blank" 
+   class="tiktok-btn">
+    🎵 Follow me on TikTok
+</a>
+
+<style>
+.tiktok-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tiktok-btn:hover {
+    transform: scale(1.05);
+}
+</style>
